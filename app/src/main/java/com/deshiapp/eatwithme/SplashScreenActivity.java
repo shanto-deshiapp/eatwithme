@@ -1,8 +1,8 @@
 package com.deshiapp.eatwithme;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void run(){
                 try {
-                    sleep(2000);
+                    sleep(1500);
                     Intent i = new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(i);
                     finish();
